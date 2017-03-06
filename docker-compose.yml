@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  dockercitest1:
+    image: dockercitest1
+    build:
+      context: ./DockerCiTest1
+      dockerfile: Dockerfile
